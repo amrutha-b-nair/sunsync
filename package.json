@@ -1,0 +1,15 @@
+{
+  "name": "sunsync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "delay": "^6.0.0"
+  }
+}

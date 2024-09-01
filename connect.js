@@ -31,7 +31,7 @@ function tradfriDeviceUpdated(device) {
 }
 
 function tradfriDeviceRemoved(instanceId) {
-  TOD
+  // Handle device removal
 }
 
 function tradfriGroupUpdated(group) {
