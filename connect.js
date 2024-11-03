@@ -2,6 +2,7 @@ import { TradfriClient, AccessoryTypes } from 'node-tradfri-client';
 import { GATEWAY_IP, SECURITY_CODE } from './config.js';
 
 const tradfri = new TradfriClient(GATEWAY_IP);
+console.log(GATEWAY_IP, SECURITY_CODE)
 
 const devices = {};
 const lightbulbs = {};
@@ -31,11 +32,9 @@ function tradfriDeviceUpdated(device) {
 }
 
 function tradfriDeviceRemoved(instanceId) {
-  // Handle device removal
 }
 
 function tradfriGroupUpdated(group) {
-  // Handle group update
 }
 
 export { connectToGateway, lightbulbs };
